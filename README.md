@@ -4,8 +4,8 @@ China makes up roughly 17% of the world's economy in 2025. Has Western media's c
 ##  Methodology
 Using the New York Times Article Search API (see source data below), I counted how many articles mention "China" in a given year. I then compared the amount of coverage China receives in the New York Times to that of other major economies. 
 
-<b>How the New York Times International Coverage Index is Calculated for 2024:<b>
--> Count the mentions for each of the top 20 economies in the world (by GDP)
+<b>How the New York Times International Coverage Index is Calculated for 2024:</b>
+###-> Count the mentions for each of the top 20 economies in the world (by GDP)
 -> Calculate the average of the top 20 country mentions. 
 -> Divide each country by the average of the top 20. 
 
