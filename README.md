@@ -2,27 +2,35 @@
 China makes up roughly 17% of the world's economy in 2025. Has Western media's coverage of China kept pace with the country's growth? 
 
 ##  Methodology
-Using the New York Times mentions API (see source data below), I counted how many articles mention "China" in a given year. I then compared the amount of coverage China receives in the New York Times to 
+Using the New York Times Article Search API (see source data below), I counted how many articles mention "China" in a given year. I then compared the amount of coverage China receives in the New York Times to that of other major economies. 
 
-How the New York Times International Coverage Index is Calculated:
+How the New York Times International Coverage Index is Calculated for 2024:
+-> Count the mentions for each of the top 20 economies in the world (by GDP)
+-> Calculate the average of the top 20 country mentions. 
+-> Divide each country by the average of the top 20. 
 
+This gives the New York Times International Coverage Index (1= low coverage, 3= high coverage) 
+
+Why use this index? 
+
+Variability in country mentions: Country mentions fluctuate year-to-year. This may be due in part to the structure of the newspaper (how many articles are in the paper, the length, use of newswires, etc). Using an index, rather than a year-to-year count, means that different years can be compared (for example, 2005 and 2024). 
+
+Simplicity: An index of international coverage is easier for readers to grasp (other methods to show international coverage, for example, % of total country mentions, can be confusing)
+
+Other Notes: Take note of the search term for the country. A country search for the country "Turkey" may return articles about Thanksgiving. 
 
 
 ##  Source Data 
-The research for the article is based on a report by the AFSA Super and the Australian Economy Report, available here: https://www.superannuation.asn.au/wp-content/uploads/2025/02/ASFA-research-paper-Super-and-the-economy.pdf
-
-The source data used comes from OECD Pensions at a glance report, available here: https://www.oecd.org/en/publications/2023/12/pensions-at-a-glance-2023_4757bf20.html
-
-Data for gross savings (% of GDP) comes from the  World Bank National Accounts data, available here: https://data.worldbank.org/indicator/NY.GNS.ICTR.ZS
+Data comes from the Article Search API.T The Api allows users to look up articles by keyword. You can refine your search using filters.
+All instructions are available here: https://developer.nytimes.com/docs/articlesearch-product/1/overview
 
 ## Dependencies
-Before running the scripts, the following R packages need to be installed:
+Before running the script, the following packages need to be installed:
 
-- `tidyverse`
-- `ggplot2`
-- `dplyr`
+- `Datetime`
+- `Pandas`
+- `requests`
 
 ##  Output
-The calculations were used as part of a data journalism project. To learn more about the project, contact alexlawson274@gmail.com
+The calculations were used as part of an article titled "Is China's Economy Followed Closely Enough?"
 
-![Kx4RN-super-savers-since-superannuation-became-law-b-style-color-18a1cd-nbsp-australia-b-nbsp-has-been-saving-more-than-the-oecd-average-](https://github.com/user-attachments/assets/910ec68b-6635-4e20-aafc-0b1f0e094202)
