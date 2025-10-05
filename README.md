@@ -25,7 +25,7 @@ Data comes from the Article Search API.T The Api allows users to look up article
 All instructions are available here: https://developer.nytimes.com/docs/articlesearch-product/1/overview
 
 ## Dependencies
-Before running the script, the following packages need to be installed:
+Before running the script, the following packages need to be installed:.
 
 - `Datetime`
 - `Pandas`
