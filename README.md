@@ -24,7 +24,7 @@ Other Notes: Take note of the search term for the country. A country search for 
 
 
 ##  Source Data 
-Data comes from the Article Search API.T The Api allows users to look up articles by keyword. You can refine your search using filters.
+Data comes from the Article Search API. The API allows users to look up articles by keyword. You can refine your search using filters.
 All instructions are available here: https://developer.nytimes.com/docs/articlesearch-product/1/overview
 
 ## Dependencies
