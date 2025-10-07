@@ -14,7 +14,7 @@ Using the New York Times Article Search API (see source data below), I counted h
 
 This gives the New York Times International Coverage Index (1= low coverage, 3= high coverage) 
 
-Why use this index? 
+<b> Why use this index? </b>
 
 Variability in country mentions: Country mentions fluctuate year-to-year. This may be due in part to the structure of the newspaper (how many articles are in the paper, the length, use of newswires, etc). Using an index, rather than a year-to-year count, means that different years can be compared (for example, 2005 and 2024). 
 
