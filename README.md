@@ -4,7 +4,7 @@ China makes up roughly 17% of the world's economy in 2025 (having grown rapidly 
 ##  Methodology
 Using the New York Times Article Search API (see source data below), I counted how many articles mention "China" was mentioned in a New York Times article in a given year. I then compared the amount of coverage China receives to that of other major economies. 
 
- How the New York Times International Coverage Index is Calculated for 2024
+<b> How the New York Times International Coverage Index is Calculated for 2024 <b/>
 
 ..>Count the mentions in the NYT for each of the top 20 economies in the world (by GDP)
 ..>Calculate the average of the top 20 country mentions
